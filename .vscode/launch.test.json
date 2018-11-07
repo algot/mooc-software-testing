@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "testing-mooc",
+                "projectName": "testing-mooc",
+                "workingDirectory": "/home/algot/dev/ST1x/mooc-software-testing",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "testing-mooc",
+                "projectName": "testing-mooc",
+                "workingDirectory": "/home/algot/dev/ST1x/mooc-software-testing",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
