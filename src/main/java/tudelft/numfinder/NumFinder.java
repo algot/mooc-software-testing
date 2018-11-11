@@ -1,15 +1,21 @@
 package tudelft.numfinder;
 
 public class NumFinder {
-    private int smallest = Integer.MAX_VALUE;
-    private int largest = Integer.MIN_VALUE;
+    private int smallest;
+    private int largest;
 
     public void find(int[] nums) {
+
+        if(nums == null) return;
+
+        smallest = Integer.MAX_VALUE;
+        largest = Integer.MIN_VALUE;
+
         for(int n : nums) {
 
             if(n < smallest)
                 smallest = n;
-            else if (n > largest)
+            if (n > largest)
                 largest = n;
 
         }
